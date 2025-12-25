@@ -455,3 +455,13 @@ body {
         flex-direction: column;
     }
 }
+
+
+section {
+    scroll-margin-top: 100px;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
