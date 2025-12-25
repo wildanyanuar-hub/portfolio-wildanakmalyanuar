@@ -465,3 +465,51 @@ section {
 html {
     scroll-behavior: smooth;
 }
+
+
+/* ==== GLOBAL FIX ==== */
+section {
+    padding: 100px 10%;
+    min-height: auto;
+    scroll-margin-top: 120px;
+}
+
+/* ==== HOME FIX ==== */
+.home {
+    min-height: 100vh;
+}
+
+/* ==== PORTFOLIO FIX ==== */
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    align-items: stretch;
+}
+
+.portfolio-box {
+    height: 250px;
+}
+
+/* ==== CONTACT FIX ==== */
+.contact {
+    padding-bottom: 120px;
+}
+
+.contact form {
+    margin-top: 40px;
+}
+
+.input-box {
+    display: flex;
+    gap: 1rem;
+}
+
+.input-box input {
+    width: 100%;
+}
+
+/* ==== HILANGKAN SPACE AJAIB ==== */
+body {
+    overflow-x: hidden;
+}
