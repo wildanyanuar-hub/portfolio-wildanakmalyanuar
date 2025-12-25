@@ -457,11 +457,6 @@ body {
 }
 
 
-html {
-    scroll-behavior: smooth;
-}
-
-
 /* ==== GLOBAL FIX ==== */
 section {
     padding: 100px 10%;
