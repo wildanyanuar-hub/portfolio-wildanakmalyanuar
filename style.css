@@ -517,23 +517,16 @@ body {
     border-radius: 10px;
     font-size: 22px;
     text-decoration: none;
-    z-index: 9999;
+    z-index: 99999;
 
-    /* selalu tampil */
-    opacity: 0.8;
-    transition: .3s ease;
+    opacity: 1; 
+    pointer-events: auto; 
 }
 
 .back-to-top:hover {
-    opacity: 1;
     box-shadow: 0 0 15px #0ef;
+    transform: translateY(-3px);
 }
-
-/* smooth scroll */
-html {
-    scroll-behavior: smooth;
-}
-
 
 html {
     scroll-behavior: smooth;
