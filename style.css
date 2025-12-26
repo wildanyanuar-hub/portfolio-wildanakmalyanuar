@@ -457,6 +457,49 @@ body {
 }
 
 
+.footer {
+    background: #323946;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-text p {
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-icon a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    background: #0ef;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+.footer-icon a i {
+    font-size: 20px;
+    color: #1f242d;
+}
+
+.footer-icon a:hover {
+    box-shadow: 0 0 15px #0ef;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+}
+
+
 html {
     scroll-behavior: smooth;
 }
