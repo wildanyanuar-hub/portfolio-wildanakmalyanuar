@@ -458,11 +458,15 @@ body {
 
 
 .footer {
+    width: 100%;
     background: #323946;
-    padding: 20px 10%;
+    padding: 20px 0;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer-text {
     text-align: center;
 }
 
