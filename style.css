@@ -503,10 +503,16 @@ body {
     }
 }
 
+.footer {
+    position: relative;
+}
+
 .back-to-top {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+
     width: 45px;
     height: 45px;
     background: #0ef;
@@ -514,20 +520,28 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
     border-radius: 10px;
     font-size: 22px;
     text-decoration: none;
-    z-index: 99999;
-
-    opacity: 1; 
-    pointer-events: auto; 
+    transition: .3s ease;
 }
 
 .back-to-top:hover {
     box-shadow: 0 0 15px #0ef;
-    transform: translateY(-3px);
+    transform: translateY(-50%) scale(1.1);
 }
+
 
 html {
     scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+    .back-to-top {
+        right: 15px;
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
 }
