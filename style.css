@@ -505,8 +505,8 @@ body {
 
 .back-to-top {
     position: fixed;
-    right: 15px;
-    bottom: 15px;
+    right: 20px;
+    bottom: 20px;
     width: 45px;
     height: 45px;
     background: #0ef;
@@ -518,7 +518,22 @@ body {
     font-size: 22px;
     text-decoration: none;
     z-index: 9999;
+
+    /* efek */
+    opacity: 0;
+    pointer-events: none;
+    transition: .4s ease;
 }
+
+.back-to-top.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.back-to-top:hover {
+    box-shadow: 0 0 15px #0ef;
+}
+
 
 
 html {
