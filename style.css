@@ -503,11 +503,11 @@ body {
     }
 }
 
-/* ===== BACK TO TOP BUTTON ===== */
+/* ===== BACK TO TOP FIX KANAN ===== */
 .back-to-top {
     position: fixed;
-    right: 25px;
-    bottom: 25px;
+    right: 15px;          /* MAKIN KANAN */
+    bottom: 15px;         /* JAUH DARI FOOTER */
     width: 45px;
     height: 45px;
     background: #0ef;
@@ -521,11 +521,11 @@ body {
     box-shadow: 0 0 15px #0ef;
     opacity: 0;
     pointer-events: none;
-    transition: .4s;
-    z-index: 999;
+    transition: all .4s ease;
+    z-index: 9999;        /* PALING ATAS */
 }
 
-/* Muncul saat scroll */
+/* muncul saat scroll */
 .back-to-top.show {
     opacity: 1;
     pointer-events: auto;
