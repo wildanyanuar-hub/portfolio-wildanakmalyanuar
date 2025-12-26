@@ -519,8 +519,6 @@ body {
     font-size: 22px;
     text-decoration: none;
     box-shadow: 0 0 15px #0ef;
-    opacity: 0;
-    pointer-events: none;
     transition: all .4s ease;
     z-index: 9999;        /* PALING ATAS */
 }
