@@ -503,6 +503,38 @@ body {
     }
 }
 
+/* ===== BACK TO TOP BUTTON ===== */
+.back-to-top {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    width: 45px;
+    height: 45px;
+    background: #0ef;
+    color: #1f242d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 22px;
+    text-decoration: none;
+    box-shadow: 0 0 15px #0ef;
+    opacity: 0;
+    pointer-events: none;
+    transition: .4s;
+    z-index: 999;
+}
+
+/* Muncul saat scroll */
+.back-to-top.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.back-to-top:hover {
+    transform: translateY(-5px);
+}
+
 
 html {
     scroll-behavior: smooth;
