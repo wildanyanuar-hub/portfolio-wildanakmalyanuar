@@ -503,11 +503,10 @@ body {
     }
 }
 
-/* ===== BACK TO TOP FIX KANAN ===== */
 .back-to-top {
     position: fixed;
-    right: 15px;          /* MAKIN KANAN */
-    bottom: 15px;         /* JAUH DARI FOOTER */
+    right: 15px;
+    bottom: 15px;
     width: 45px;
     height: 45px;
     background: #0ef;
@@ -518,19 +517,7 @@ body {
     border-radius: 10px;
     font-size: 22px;
     text-decoration: none;
-    box-shadow: 0 0 15px #0ef;
-    transition: all .4s ease;
-    z-index: 9999;        /* PALING ATAS */
-}
-
-/* muncul saat scroll */
-.back-to-top.show {
-    opacity: 1;
-    pointer-events: auto;
-}
-
-.back-to-top:hover {
-    transform: translateY(-5px);
+    z-index: 9999;
 }
 
 
