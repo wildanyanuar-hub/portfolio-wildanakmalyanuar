@@ -461,9 +461,9 @@ body {
     background: #323946;
     padding: 20px 10%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    text-align: center;
 }
 
 .footer-text p {
